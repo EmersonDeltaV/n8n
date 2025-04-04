@@ -18,7 +18,6 @@ This repo holds the Dockerfile image used for the n8n application currently avai
 - **API Workflows**: Create workflows that interact with APIs to automate complex tasks.
 
 n8n is a powerful and flexible tool that can help streamline your workflows and improve productivity.
-
 For more information, visit the [n8n](https://docs.n8n.io/) website.
 
 # Prerequisites
@@ -26,6 +25,14 @@ For more information, visit the [n8n](https://docs.n8n.io/) website.
 
 ## Use Cases
 n8n is used standalone. It can connect with the RESTAPI to create workflows.
+1. **Data Engineers - Automating Data Pipelines** - Data engineers can use n8n to automate data extraction, transformation, and loading (ETL) processes. This reduces
+manual intervention and ensures data consistency.
+2. **AI Engineers - Enhancing AI Workflows** - AI engineers can leverage n8n to streamline AI model training and deployment. They can automate data
+preprocessing, model training, and deployment, as well as monitor model performance and retrain models as needed.
+3. **Software Engineers - Streamlining Development Processes​** - Software developers can use n8n to automate repetitive tasks such as code testing and deployment. This helps in
+reducing errors, saving time, and allowing developers to focus on more complex coding tasks.
+4. **Customer Support Teams - Automating Customer Support Workflows** - Customer support teams can use n8n to automate ticketing systems, prioritize urgent issues, and integrate with CRM
+tools. This ensures faster response times and improved customer satisfaction by streamlining support processes.
 
 ## Minio Setup
 This sample workflow is used to create a simple workflow utilizing Edge's RESTAPI.
@@ -49,3 +56,4 @@ This sample workflow is used to create a simple workflow utilizing Edge's RESTAP
 ![n8n Final Workflow](https://github.com/EmersonDeltaV/n8n/blob/main/assets/final_test_workflow.png?raw=true)
 ## Changelist
 - **03/31/2025** - First version.
+- **04/04/2025** - Added use cass for specific personas.
