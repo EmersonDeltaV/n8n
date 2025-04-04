@@ -20,9 +20,6 @@ This repo holds the Dockerfile image used for the n8n application currently avai
 n8n is a powerful and flexible tool that can help streamline your workflows and improve productivity.
 For more information, visit the [n8n](https://docs.n8n.io/) website.
 
-# Prerequisites
-1. You must have n8n installed from the marketplace.
-
 ## Use Cases
 n8n is used standalone. It can connect with the RESTAPI to create workflows.
 1. **Data Engineers - Automating Data Pipelines** - Data engineers can use n8n to automate data extraction, transformation, and loading (ETL) processes. This reduces
@@ -33,6 +30,9 @@ preprocessing, model training, and deployment, as well as monitor model performa
 reducing errors, saving time, and allowing developers to focus on more complex coding tasks.
 4. **Customer Support Teams - Automating Customer Support Workflows** - Customer support teams can use n8n to automate ticketing systems, prioritize urgent issues, and integrate with CRM
 tools. This ensures faster response times and improved customer satisfaction by streamlining support processes.
+
+# Prerequisites
+1. You must have n8n installed from the marketplace.
 
 ## Minio Setup
 This sample workflow is used to create a simple workflow utilizing Edge's RESTAPI.
