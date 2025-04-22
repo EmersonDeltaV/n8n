@@ -34,7 +34,7 @@ tools. This ensures faster response times and improved customer satisfaction by 
 # Prerequisites
 1. You must have n8n installed from the marketplace.
 
-## Minio Setup
+## n8n Setup
 This sample workflow is used to create a simple workflow utilizing Edge's RESTAPI.
 1.	Launch the n8n Web Interface: http://{edge_ip}:5678. Create your desired username and password. 
 ![n8n Landing Page](https://github.com/EmersonDeltaV/n8n/blob/main/assets/landing_page.png?raw=true)
